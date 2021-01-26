@@ -81,7 +81,7 @@ jobs:
           CMAKE_CXX_STANDARD: 14
           PYTHON_VERSION: 3.7
           USE_SIMD: avx
-          WEBP_VERSION: v1.1.0
+          WEBP_VERSION: v1.2.0-rc3
           MY_CMAKE_FLAGS: -DBUILD_FMT_VERSION=7.0.1
         run: |
             source src/build-scripts/ci-startup.bash
@@ -111,7 +111,7 @@ jobs:
           PYTHON_VERSION: 3.7
           USE_SIMD: avx2,f16c
           OPENEXR_VERSION: v2.5.3
-          WEBP_VERSION: v1.1.0
+          WEBP_VERSION: v1.2.0-rc3
         run: |
             source src/build-scripts/ci-startup.bash
             source src/build-scripts/gh-installdeps-centos.bash
@@ -214,7 +214,7 @@ jobs:
           OPENEXR_VERSION: v2.5.3
           PUGIXML_VERSION: v1.11.4
           PYBIND11_VERSION: v2.6.1
-          WEBP_VERSION: v1.1.0
+          WEBP_VERSION: v1.2.0-rc3
           MY_CMAKE_FLAGS: -DBUILD_FMT_VERSION=7.1.3
         run: |
             source src/build-scripts/ci-startup.bash
